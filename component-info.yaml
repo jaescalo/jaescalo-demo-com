@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "jaescalo-demo-com"
+  annotations:
+    github.com/project-slug: jaescalo/terraform-akamai-workflow #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: 'Automated Property Creation'
+  description: An example of a Property creation.
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
